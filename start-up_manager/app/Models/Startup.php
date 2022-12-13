@@ -9,6 +9,13 @@ class Startup extends Model
 {
     use HasFactory;
 
+    protected $fillable = [
+        
+        'naziv',
+        'projektant',
+        'godina',
+    ];
+
     
     public function investicije()
     {
